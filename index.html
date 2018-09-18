@@ -1,0 +1,143 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Програма ВТУ</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.3/cyborg/bootstrap.min.css">-->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div id="wrapper">
+            <h1>График на занятията</h1>
+            <h2>Софтуерно инженерство курс 2, сем 3</h2>
+        
+            Лаб група:
+            <select name="group" id="group-selector">
+                <option value="0">Всички</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4" selected="selected">4</option>
+            </select>
+            <table cellspacing="0" cellpadding="4" border="0" id="ctl00_ContentPlaceHolder2_gv_grzan" class="table table-dark">
+                <tr>
+                    <th scope="col">Ден</th><th scope="col">Час</th><th scope="col">Седмица</th><th scope="col">Група</th><th scope="col">Зала</th><th scope="col">Сграда</th><th scope="col">Л/У</th><th scope="col">Дисциплина</th>
+                </tr><tr>
+                    <td>Понеделник</td><td>8.15-10.00</td><td>всяка</td><td>2 сем</td><td>202</td><td>Корпус 3</td><td>У</td><td>Математически анализ І част</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>8.15-10.00</td><td>всяка</td><td>4 лаб</td><td>506</td><td>Корпус 3</td><td>У</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>10.15-12.00</td><td>всяка</td><td>1 лаб</td><td>202</td><td>Корпус 3</td><td>У</td><td>Дискретни структури</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>10.15-12.00</td><td>всяка</td><td>3 лаб</td><td>506</td><td>Корпус 3</td><td>У</td><td>Програмиране на Java</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>12.15-14.00</td><td>всяка</td><td>2 лаб</td><td>202</td><td>Корпус 3</td><td>У</td><td>Дискретни структури</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>12.15-14.00</td><td>всяка</td><td>4 лаб</td><td>506</td><td>Корпус 3</td><td>У</td><td>Програмиране на Java</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>14.15-16.00</td><td>1,3</td><td>1 лаб</td><td>306</td><td>Корпус 3</td><td>У</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>14.15-16.00</td><td>2,4</td><td>1 сем</td><td>406</td><td>Корпус 3</td><td>У</td><td>Дискретни структури</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>14.15-16.00</td><td>1,3</td><td>2 лаб</td><td>402</td><td>Корпус 3</td><td>У</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>14.15-16.00</td><td>2,4</td><td>4 лаб</td><td>306</td><td>Корпус 3</td><td>У</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Понеделник</td><td>16.15-18.00</td><td>всяка</td><td>2 лаб</td><td>703</td><td>Корпус 3</td><td>У</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Вторник</td><td>10.15-12.00</td><td>1,3</td><td></td><td>102</td><td>Корпус 3</td><td>Л</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Вторник</td><td>10.15-12.00</td><td>2,4</td><td></td><td>202</td><td>Корпус 3</td><td>Л</td><td>Дискретни структури</td>
+                </tr><tr>
+                    <td>Вторник</td><td>12.15-14.00</td><td>всяка</td><td></td><td>202</td><td>Корпус 3</td><td>Л</td><td>Дискретни структури</td>
+                </tr><tr>
+                    <td>Вторник</td><td>14.15-16.00</td><td>всяка</td><td>1 лаб</td><td>707</td><td>Корпус 3</td><td>У</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Вторник</td><td>14.15-16.00</td><td>всяка</td><td>3 лаб</td><td>503</td><td>Корпус 3</td><td>У</td><td>PHP базирани работни рамки</td>
+                </tr><tr>
+                    <td>Вторник</td><td>16.15-18.00</td><td>всяка</td><td>4 лаб</td><td>503</td><td>Корпус 3</td><td>У</td><td>PHP базирани работни рамки</td>
+                </tr><tr>
+                    <td>Сряда</td><td>8.15-10.00</td><td>2,4</td><td></td><td>306</td><td>Корпус 3</td><td>Л</td><td>PHP базирани работни рамки</td>
+                </tr><tr>
+                    <td>Сряда</td><td>8.15-10.00</td><td>1,3</td><td></td><td>306</td><td>Корпус 3</td><td>Л</td><td>Програмиране на Java</td>
+                </tr><tr>
+                    <td>Сряда</td><td>10.15-12.00</td><td>всяка</td><td>1 АЕ</td><td>707</td><td>Корпус 3</td><td>У</td><td>Специализиран английски език</td>
+                </tr><tr>
+                    <td>Сряда</td><td>10.15-12.00</td><td>всяка</td><td>3 лаб</td><td>702</td><td>Корпус 3</td><td>У</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Сряда</td><td>12.15-14.00</td><td>всяка</td><td>2 АЕ</td><td>707</td><td>Корпус 3</td><td>У</td><td>Специализиран английски език</td>
+                </tr><tr>
+                    <td>Сряда</td><td>12.15-14.00</td><td>2,4</td><td>3 лаб</td><td>702</td><td>Корпус 3</td><td>У</td><td>Изграждане на приложни програмни интерфейси (API)</td>
+                </tr><tr>
+                    <td>Четвъртък</td><td>8.15-10.00</td><td>всяка</td><td>1 лаб</td><td>503</td><td>Корпус 3</td><td>У</td><td>Програмиране на Java</td>
+                </tr><tr>
+                    <td>Четвъртък</td><td>10.15-12.00</td><td>всяка</td><td>1 сем</td><td>202</td><td>Корпус 3</td><td>У</td><td>Математически анализ І част</td>
+                </tr><tr>
+                    <td>Четвъртък</td><td>10.15-12.00</td><td>всяка</td><td>2 лаб</td><td>503</td><td>Корпус 3</td><td>У</td><td>Програмиране на Java</td>
+                </tr><tr>
+                    <td>Четвъртък</td><td>10.15-12.00</td><td>всяка</td><td>3 лаб</td><td>703</td><td>Корпус 3</td><td>У</td><td>Системи за управление на съдържанието</td>
+                </tr><tr>
+                    <td>Четвъртък</td><td>12.15-14.00</td><td>всяка</td><td>2 лаб</td><td>703</td><td>Корпус 3</td><td>У</td><td>Системи за управление на съдържанието</td>
+                </tr><tr>
+                    <td>Четвъртък</td><td>14.15-16.00</td><td>всяка</td><td>1 лаб</td><td>703</td><td>Корпус 3</td><td>У</td><td>Системи за управление на съдържанието</td>
+                </tr><tr>
+                    <td>Четвъртък</td><td>16.15-18.00</td><td>всяка</td><td>4 лаб</td><td>703</td><td>Корпус 3</td><td>У</td><td>Системи за управление на съдържанието</td>
+                </tr><tr>
+                    <td>Петък</td><td>8.15-10.00</td><td>всяка</td><td></td><td>2</td><td>Спортна зала</td><td>У</td><td>Физическо възпитание</td>
+                </tr><tr>
+                    <td>Петък</td><td>12.15-14.00</td><td>1,3</td><td></td><td>202</td><td>Корпус 3</td><td>Л</td><td>Математически анализ І част</td>
+                </tr><tr>
+                    <td>Петък</td><td>12.15-14.00</td><td>2,4</td><td>2 лаб</td><td>102</td><td>Корпус 3</td><td>У</td><td>Дискретни структури</td>
+                </tr><tr>
+                    <td>Петък</td><td>14.15-16.00</td><td>1,3</td><td></td><td>202</td><td>Корпус 3</td><td>Л</td><td>Математически анализ І част</td>
+                </tr><tr>
+                    <td>Петък</td><td>14.15-16.00</td><td>2,4</td><td></td><td>406</td><td>Корпус 3</td><td>Л</td><td>Системи за управление на съдържанието</td>
+                </tr><tr>
+                    <td>Събота</td><td>10.15-12.00</td><td>всяка</td><td>1 лаб</td><td>402</td><td>Корпус 3</td><td>У</td><td>PHP базирани работни рамки</td>
+                </tr><tr>
+                    <td>Събота</td><td>12.15-14.00</td><td>всяка</td><td>2 лаб</td><td>402</td><td>Корпус 3</td><td>У</td><td>PHP базирани работни рамки</td>
+                </tr>
+            </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script>
+        let labGroup = 4;
+
+        $(document).ready(()=>{
+            filter(labGroup);
+        });
+
+        $('#group-selector').change(() => {
+            console.log("works " + $('#group-selector').val());
+            filter($('#group-selector').val());
+        });
+
+        function filter(labGroup) {
+            labGroup = parseInt(labGroup);
+            let semGroup = Math.ceil(labGroup/2); // 1/2 = 0.5 = 1 | 2/2 = 1 = 1 | 3/2 = 1.5 = 2 | 4/2 = 2 = 2
+            if(!(labGroup === 0)){
+                $('tr:not(:first)').hide();
+
+                $(`tr:contains('${labGroup} лаб')`).show();
+                $(`tr:contains('${semGroup} сем')`).show();
+                $(`tr:contains('${semGroup} АЕ')`).show();
+                $(`td:nth-child(4):empty`).parent().show();
+
+                let days = ['Неледя', 'Понеделник', 'Вторник', 'Сряда', 'Четвъртък', 'Петък', 'Събота'];
+                let dayOfWeek = new Date().getDay();
+
+                $(`tr:contains('${days[dayOfWeek]}')`).css('background-color', '#513939');
+            } else {
+                $('tr').show();
+            }
+        }
+    </script>
+</body>
+</html>
